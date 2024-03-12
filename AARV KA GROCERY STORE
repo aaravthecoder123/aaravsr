@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROCERY STORE BY AARAV</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <style>
+        /* CSS for the background */
+        body {
+            background-image: url('https://source.unsplash.com/1600x900/?space'); /* Space background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            font-family: Arial, sans-serif; /* Specify a fallback font */
+            color: black; /* Initial text color */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        /* CSS for the logo */
+        .logo {
+            display: flex;
+            align-items: center; /* Center items vertically */
+            justify-content: center; /* Center items horizontally */
+            font-size: 36px; /* Increase font size */
+            text-decoration: none; /* Remove underline */
+            margin-top: 20px; /* Add margin to separate from navbar */
+        }
+
+        .logo i {
+            margin-right: 10px; /* Add space between icon and text */
+        }
+
+        /* CSS for the navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-around; /* Evenly distribute items horizontally */
+            align-items: center; /* Center items vertically */
+            background-color: rgba(0, 0, 0, 0.5); /* Navbar background color with opacity */
+            padding: 10px 0; /* Add padding */
+        }
+
+        .navbar a {
+            text-decoration: none; /* Remove underline */
+            padding: 10px 20px; /* Add padding */
+            border-right: 1px solid black; /* Add right border */
+            font-weight: bold; /* Set font weight to bold */
+        }
+
+        .navbar a:last-child {
+            border-right: none; /* Remove right border for the last item */
+        }
+
+        /* CSS for the content */
+        .content {
+            text-align: center; /* Center align content */
+            padding: 50px; /* Add padding */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i> <!-- Font Awesome icon -->
+            GROCERY
+        </a>
+        <nav class="navbar">
+            <a href="file:///C:/Users/Admin/Documents/Untitl344ed-1.html">login</a>
+            <a href="#feature">Features</a>
+            <a href="#products">Products</a>
+            <a href="#fruits">Fruits</a>
+            <a href="#categories">Categories</a>
+            <a href="#apple">Apple</a>
+            <a href="#appl">Appl</a>
+            <a href="#number43">43</a>
+        </nav>
+    </header>
+
+    <!-- Content section -->
+    <div class="content">
+        <h2 id="welcome-heading">Welcome to Aarav's Grocery Store</h2>
+        <p>At Aarav's Grocery Store, we offer a wide range of fresh and high-quality products to meet your daily needs. Whether you're looking for fruits, vegetables, dairy products, or pantry staples, we've got you covered.</p>
+        <p>Our commitment is to provide excellent customer service and ensure that you have a pleasant shopping experience every time you visit us.</p>
+    </div>
+
+    <!-- Footer section -->
+
+    <script>
+        // JavaScript to change the font color dynamically
+        document.addEventListener('DOMContentLoaded', function() {
+            var colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#00ffff', '#ff00ff', '#ffffff']; // Array of colors
+            var randomColor = colors[Math.floor(Math.random() * colors.length)]; // Randomly select a color from the array
+            var heading = document.getElementById('welcome-heading'); // Get the heading element
+            heading.style.color = randomColor; // Apply the random color to the heading
+        });
+    </script>
+</body>
+</html>
